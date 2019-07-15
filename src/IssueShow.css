@@ -4,8 +4,17 @@
     text-align: left; 
 }
 
+.user {
+    margin: 2px 300px; 
+    border: 1px solid gray; 
+    text-align: left; 
+    background-color: lightgray;
+}
+
+
+
 .body {
-    margin: 20px 300px;
+    margin: 10px 300px;
     border: 1px solid gray;
     text-align: left; 
 }

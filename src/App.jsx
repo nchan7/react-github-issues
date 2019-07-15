@@ -31,12 +31,12 @@ class App extends React.Component {
     return (
       <Router>
         <nav>
-          <Link to="/">Home</Link> {' '}
-          {/* <Link to="/issues"> Search</Link> {' '} */}
-          {/* <Link to="/issues"> Pull Requests</Link> {' '} */}
-          <Link to="/issues"> Issues</Link> {' '}
-          {/* <Link to="/issues"> Marketplace</Link> {' '} */}
-          {/* <Link to="/issues"> Explore</Link> {' '} */}
+          <Link className="link" to="/">🏠</Link> {' '}
+          <input type='text' placeholder="Search or jump to..."/>
+          <Link className="link" to="/pull_requests"> Pull requests</Link> {' '}
+          <Link className="link" to="/issues"> Issues</Link> {' '}
+          <Link className="link" to="/marketplace"> Marketplace</Link> {' '}
+          <Link className="link" to="/explore"> Explore</Link> {' '}
         </nav>
         <Route exact path='/' component={Splash} />
         <Route exact path='/issues' 

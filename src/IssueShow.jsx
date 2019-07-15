@@ -13,12 +13,12 @@ const IssueShow = props => {
     return (
         <>
             <div className='header'>
-                <h4>{issue.title} {issue.number}</h4>
-                <h5>'{issue.state}' {issue.user.login} opened this issue on {moment(issue.created_at).startOf().fromNow()}</h5>
+                <h3>{issue.title} {issue.number}</h3>
 
             </div>
-            <div>
-                
+            <div className='user'>
+                <h5>✅{issue.state.toUpperCase()} {issue.user.login} opened this issue {moment(issue.created_at).startOf().fromNow()}</h5>
+
             </div>
         
             <div className='body'>

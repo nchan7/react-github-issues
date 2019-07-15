@@ -13,17 +13,24 @@ button {
 
 .issue {
     margin: 0px 300px;
-    padding: 0px, 50px;
+    padding: 2px 5px;
     text-align: left; 
     border: 1px solid black; 
 }
 
-#numberIssues {
+.title {
+    text-decoration: none;
+    color: black;
+}
+
+.numberIssues {
     margin: 10px 300px;
-    padding: 10px, 50px;
+    padding: 10px 5px;
     text-align: left; 
     border: 1px solid black; 
     background-color: lightgray; 
     font-weight: 600;
 }
+
+
 

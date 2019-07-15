@@ -38,5 +38,15 @@ body {
 }
 
 nav {
-  margin: 20px;
+  background-color: black;
+  text-align: left;
+  padding: 10px 2px;
+}
+
+.link {
+  margin: 0px 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
 }
