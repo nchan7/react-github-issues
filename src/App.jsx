@@ -45,6 +45,8 @@ class App extends React.Component {
                      render={(props) => <IssueShow issues={issueCopy} {...props} />} />       
         
                {/* render={(props) => <IssuesShow procedures={this.state.procedures} {...props} />} /> */}
+               {/* Had help from Steve, Mike, Kelsey, and Anthony Z. Originally wanted to use a route within the 
+              Issues components and split the pieces of the page into separate components but I refactored the code to only have three components: App, Issues, IssuesShow */}
       </Router>
     );
   }

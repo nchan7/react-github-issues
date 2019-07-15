@@ -25,6 +25,7 @@ const IssueShow = props => {
                 <ReactMarkdown source={issue.body}/>
 
             </div>
+            <a href={`https://api.github.com/repos/facebook/react/issues/${issue.number}/comments`}>Comments! <span className="commentsShow">{issue.comments}💬</span></a>
         </>
 
     )

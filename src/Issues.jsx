@@ -24,7 +24,8 @@ const Issues = props => (
             {props.issues.map((issue, i) => (
                 <div className='issue'>
                     <Link className='title' to={`/issues/${issue.number}`}> {' '}
-                    <h4 key={i}>{issue.title} #{issue.number}</h4>
+                    <h4 key={i}>{issue.title} #{issue.number}<span className="comments">{issue.comments}💬</span></h4>
+                    
                     </Link>
                     <p>✅{issue.state.toUpperCase()} {issue.user.login} opened this issue on {moment(issue.created_at).startOf().fromNow()}</p>
                     
