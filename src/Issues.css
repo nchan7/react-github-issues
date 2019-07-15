@@ -1,0 +1,29 @@
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px; 
+}
+
+.splash {
+    margin: 10px 300px; 
+    text-align: center; 
+    border: 1px solid gray; 
+}
+
+.issue {
+    margin: 0px 300px;
+    padding: 0px, 50px;
+    text-align: left; 
+    border: 1px solid black; 
+}
+
+#numberIssues {
+    margin: 10px 300px;
+    padding: 10px, 50px;
+    text-align: left; 
+    border: 1px solid black; 
+    background-color: lightgray; 
+    font-weight: 600;
+}
+
